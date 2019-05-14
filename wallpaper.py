@@ -26,35 +26,35 @@ ICON_STOP = 0x10
 
 # Monday
 if day == 0:
-  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "S:\\Documents\\My Pictures\\Wallpapers\\Monday.bmp" , 0)
+  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "Wallpapers\\Monday.bmp" , 0)
   MessageBox(None, 'Tis pre-pre-Wednesday!', 'Lit Alert', MB_YESNO | ICON_INFO)
 
 # Tuesday
 elif day == 1:
-  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "S:\\Documents\\My Pictures\\Wallpapers\\Tuesday.bmp" , 0)
+  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "Wallpapers\\Tuesday.bmp" , 0)
   MessageBox(None, 'Tis pre-Wednesday!', 'Lit Alert', MB_YESNO | ICON_INFO)
 
 # Wednesday
 elif day == 2:
-  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "S:\\Documents\\My Pictures\\Wallpapers\\Wednesday.bmp" , 0)
+  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "Wallpapers\\Wednesday.bmp" , 0)
   MessageBox(None, 'AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH', 'IT IS WEDNESDAY MY DUDES!', MB_YESNO | ICON_EXLAIM)
 
 # Thursday
 elif day == 3:
-  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "S:\\Documents\\My Pictures\\Wallpapers\\Thursday.bmp" , 0)
+  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "Wallpapers\\Thursday.bmp" , 0)
   MessageBox(None, 'Tis the Pre-Pre-Weekend My Dudes!', 'Lit Alert', MB_YESNO | ICON_INFO)
 
 # Friday
 elif day == 4:
-  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "S:\\Documents\\My Pictures\\Wallpapers\\Friday.bmp" , 0)
+  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "Wallpapers\\Friday.bmp" , 0)
   MessageBox(None, 'Tis the Pre-Weekend My Dudes!', 'Lit Alert', MB_YESNO | ICON_INFO)
 
 # Saturday
 elif day == 5:
-  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "S:\\Documents\\My Pictures\\Wallpapers\\Saturday.bmp" , 0)
+  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "Wallpapers\\Saturday.bmp" , 0)
   MessageBox(None, 'Tis the PRO-Day My Dude!', 'PRO Alert', MB_YESNO | ICON_INFO)
 
 # Sunday
 elif day == 6:
-  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "S:\\Documents\\My Pictures\\Wallpapers\\Sunday.bmp" , 0)
+  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "Wallpapers\\Sunday.bmp" , 0)
   MessageBox(None, 'God: Why are you at work on the lord\'s day?', 'Holy MSG', MB_YESNO | ICON_INFO)
