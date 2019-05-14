@@ -9,7 +9,7 @@ speak = wincl.Dispatch("SAPI.SpVoice")
 SPI_SETDESKWALLPAPER = 20
 MessageBox = ctypes.windll.user32.MessageBoxW
 day = datetime.datetime.today().weekday()
-#day = 1  #set Static day(testing)
+#day = 5  #set Static day(testing)
 
 #print(day)
 
@@ -26,35 +26,35 @@ ICON_STOP = 0x10
 
 # Monday
 if day == 0:
-  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "Wallpapers\\Monday.bmp" , 0)
+  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "C:/Users/t-agwgfc/Desktop/LogOnScripts/Monday.bmp" , 0)
   MessageBox(None, 'Tis pre-pre-Wednesday!', 'Lit Alert', MB_YESNO | ICON_INFO)
 
 # Tuesday
 elif day == 1:
-  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "Wallpapers\\Tuesday.bmp" , 0)
+  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "C:/Users/t-agwgfc/Desktop/LogOnScripts/Tuesday.bmp" , 0)
   MessageBox(None, 'Tis pre-Wednesday!', 'Lit Alert', MB_YESNO | ICON_INFO)
 
 # Wednesday
 elif day == 2:
-  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "Wallpapers\\Wednesday.bmp" , 0)
+  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "C:/Users/t-agwgfc/Desktop/LogOnScripts/Wednesday.bmp" , 0)
   MessageBox(None, 'AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH', 'IT IS WEDNESDAY MY DUDES!', MB_YESNO | ICON_EXLAIM)
 
 # Thursday
 elif day == 3:
-  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "Wallpapers\\Thursday.bmp" , 0)
+  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "C:/Users/t-agwgfc/Desktop/LogOnScripts/Thursday.bmp" , 0)
   MessageBox(None, 'Tis the Pre-Pre-Weekend My Dudes!', 'Lit Alert', MB_YESNO | ICON_INFO)
 
 # Friday
 elif day == 4:
-  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "Wallpapers\\Friday.bmp" , 0)
+  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "C:/Users/t-agwgfc/Desktop/LogOnScripts/Friday.bmp" , 0)
   MessageBox(None, 'Tis the Pre-Weekend My Dudes!', 'Lit Alert', MB_YESNO | ICON_INFO)
 
 # Saturday
 elif day == 5:
-  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "Wallpapers\\Saturday.bmp" , 0)
+  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "C:/Users/t-agwgfc/Desktop/LogOnScripts/Saturday.bmp" , 0)
   MessageBox(None, 'Tis the PRO-Day My Dude!', 'PRO Alert', MB_YESNO | ICON_INFO)
 
 # Sunday
 elif day == 6:
-  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "Wallpapers\\Sunday.bmp" , 0)
+  ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER,0, "C:/Users/t-agwgfc/Desktop/LogOnScripts/Sunday.bmp" , 0)
   MessageBox(None, 'God: Why are you at work on the lord\'s day?', 'Holy MSG', MB_YESNO | ICON_INFO)
