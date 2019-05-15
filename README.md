@@ -1,2 +1,2 @@
 # LogOnScripts
-Log On Scripts designed to annoy me at my Workstation
+Log on scripts designed to annoy me at my workstation.
