@@ -16,7 +16,10 @@ speak = wincl.Dispatch("SAPI.SpVoice")
 opt = ["Welcome, to the Help Delp!",
        "This is a bunch of Bologna",
        "Can I get Solidworks on me?",
-       "Help, I've been migrated!",]
+       "Help, I've been migrated!",
+       "Remember to sign in with username@umsystem.edu",
+       "Hello there!"
+       ]
 
 # Wednesday My dudes
 if weekDay == 2:
